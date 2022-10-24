@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Initialises flask and Register Bluetooth"""
 from os import getenv
 from dotenv import load_dotenv
 from flask import Flask, Blueprint, jsonify
